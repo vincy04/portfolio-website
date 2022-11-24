@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bar {
+  /* background-color: red; */
+  margin: 20px;
+  padding-left: 200px;
+  justify-content: center;
+}
+
+.Home,
+.About,
+.Projects,
+.Contact {
+  padding: 10px 10px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+}
+
+.Resume {
+  padding: 10px 10px;
+  /* background-color: white; */
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.Home:hover {
+  background-color: rgb(226, 179, 187);
+  border-radius: 6px 0px 0px 6px;
+}
+
+.About:hover,
+.Projects:hover,
+.Resume:hover {
+  background-color: rgb(226, 179, 187);
+}
+
+.Contact:hover {
+  background-color: rgb(226, 179, 187);
+  border-radius: 0px 6px 6px 0px;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+#icon {
+  padding: 20px 30px 0px 200px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.socialmedia {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: row;
+  padding-right: 730px;
+}
+
+.main {
+  /* background-color: yellow;  */
+  width: 96.5vw;
+  height: 500px;
+  padding-right: 500px;
+}
+
+.infocontainer {
+  /* background-color: rgb(228, 63, 151);  */
+  height: 400px;
+  width: 70vw;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.btn {
+  margin: 34px;
+}
+.moreabout {
+  /* background-color: aqua; */
+  font-size: 20px;
+  margin-top: 23px;
+  padding-top: 20px;
+}
+.devPic img {
+  height: 45vh;
+  padding-top: 30px;
+}
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hello {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.name,
+.about {
+  font-size: 60px;
+  font-weight: 700;
+  padding-top: 10px;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+.name-color {
+  background-clip: text;
+  height: 1.2em;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(
+    90deg,
+    rgb(177, 34, 58) 0%,
+    rgb(193, 35, 151) 100%
+  );
+}
+/* .about {
+  font-size: 25px;
+  padding-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: black;
+} */
+
+.btn {
+  padding: 15px 25px 15px 25px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(177, 34, 58);
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  margin-left: 2px;
+  transition: all 0.3 ease-in-out;
+}
+
+.btn-sm {
+  font-size: 17px;
+  padding: 10px 19px;
+  margin: 12px 0;
+  font-weight: bold;
+}
+
+.btn:hover {
+  transition: all 0.3s ease-in-out;
+  color: black;
+  background-color: rgb(151, 48, 124);
+  background-image: linear-gradient(
+    90deg,
+    rgb(131, 37, 53) 0%,
+    rgb(193, 35, 151) 100%
+  );
+}
+
+.contactform {
+  padding: 50px 0px 0px 500px;
+  font-family: "Fira Sans", sans-serif;
+  color: black;
+}
+.contactform h1 {
+  font-family: "Source Code Pro", monospace;
+  padding: 12px 0;
+}
+
+.contactform form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactform form div input {
+  width: 16vw;
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+}
+
+#emailHelp {
+  font-size: 11px;
+  color: midnightblue;
+  margin: 0 5px;
+  padding: 3px 0 0 0;
+}
+
+#form-check {
+  flex-direction: row;
+}
+
+#form-check input {
+  width: 30px;
+  margin: 3px 0;
+}
+
+.blogItem {
+  margin: 20px;
+  font-family: "fira Sans", sans-serif;
+}
+
+h1 {
+  font-family: "fira Sans", sans-serif;
+  margin: 23px;
+}
+
+p {
+  font-family: "source Code Pro", monospace;
+}
+
+.intro h2 {
+  font-family: "fira Sans", sans-serif;
+  margin: 12px;
+}
+
+.intro p {
+  font-family: "source Code Pro", monospace;
+  font-size: 12px;
+}
+.skillcontainer {
+  padding: 12px;
+}
+
+.skillItem {
+  display: flex;
+  align-items: center;
+  font-family: "source Code Pro", monospace;
+  font-weight: 900;
+}
+.skill {
+  width: 265px;
+  height: 6px;
+  background-color: red;
+  border: 2px solid black;
+}
+
+.hundered {
+  width: 265px;
+  background-color: blueviolet;
+}
+
+.fifty {
+  width: 125px;
+  background-color: aqua;
+}
+
+.t5 {
+  width: 75px;
+  background-color: yellow;
+}
+
+@media (max-width: 1480px) {
+  .sidebar {
+    transform: translate(-170px 0px);
+    position: absolute;
+  }
+}
